@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: #e0d9d9;
+}
+
+.content {
+  margin: 0 200px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cats_card {
+  max-width: 230px;
+  max-height: 550px;
+  border-radius: 12px;
+}
+
+.cats_card:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.cats_img-container {
+  width: 230px;
+  height: 310px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card_img {
+  height: 100%;
+  width: auto;
+}
+
+.cats_btn-favourite {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card_content {
+  padding: 10px;
+}
+
+.card_title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card_title--name {
+  font-weight: 600;
+}
+
+.card_description {
+  font-size: 14px;
+}
+
+.card_rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.card_rating--icon {
+  width: 20px;
+  height: auto;
+}
